@@ -42,7 +42,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-	color:#555; 
+	color:#00B3DE; 
 	margin-top:5px; 
 	text-shadow:none; 
 	text-shadow:0 0 1px #00B3DE;
@@ -689,7 +689,6 @@ blockquote:hover {
 }
 .posts .dl-horizontal dd p { 
 	margin:0;
-        text-align: right;        
 }
 .posts .dl-horizontal a {
 	font-size:15px;
