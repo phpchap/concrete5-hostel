@@ -20,7 +20,7 @@ Website: http://htmlstream.com/preview/unify
 body { 
         padding:0;
         color:#333; 
-        font-size:13px;
+        font-size:16px;
         line-height:1.6;
         background:#FEFBFF;
 }
@@ -45,7 +45,6 @@ h1, h2, h3, h4, h5 {
 	color:#00B3DE; 
 	margin-top:5px; 
 	text-shadow:none; 
-	text-shadow:0 0 1px #00B3DE;
 	font-weight:normal !important; 
 	font-family:'Short Stack', sans-serif; 
 } 
