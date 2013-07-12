@@ -58,7 +58,7 @@ $(document).ready(function(){
 <?php  } ?>
 
 <!-- SUCCESS -->
-<div class="alert alert-success" id="newsletter_success" style="">
+<div class="alert alert-success" id="newsletter_success" style="<?php echo $display; ?>">
 <button type="button" class="close" data-dismiss="alert">×</button>
 <span id="success_text">Thanks for registering, please check your inbox.</span>
 </div>

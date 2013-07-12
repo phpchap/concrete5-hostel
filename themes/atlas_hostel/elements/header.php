@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="<?=$this->getThemePath();?>/assets/css/effects.css">           
     <script type="text/javascript"> var bookNowWidth = 610; function bookNowApp(e){var t=document.createElement("img");t.style.cursor="pointer";t.src="https://myallocator.com/images/booknow/close_button.png";t.style.zIndex=52;t.style.position="absolute";t.style.left="50%";document.getElementsByTagName("body")[0].appendChild(t);var n=document.createElement("div");n.style.position="fixed";n.style.top="0px";n.style.left="0px";n.style.overflow="hidden";n.style.display="none";n.style.width="100%";n.style.height="100%";n.style.opacity=.7;n.style.MozOpacity=.7;n.style.filter="alpha(opacity=70)";n.style.zIndex=50;n.style.display="block";n.style.backgroundColor="#000000";document.getElementsByTagName("body")[0].appendChild(n);var r=document.createElement("iframe");r.style.width=bookNowWidth+"px";r.style.height="100%";r.style.border="none";r.a="true";r.style.position="absolute";r.style.left="50%";r.style.top="50px";r.style.marginLeft=-(bookNowWidth/2)+"px";r.allowTransparency="true";r.frameBorder = "0";r.style.zIndex=51;r.src="https://myallocator.com/en/booknow/"+e;document.getElementsByTagName("body")[0].appendChild(r);n.addEventListener?n.addEventListener("click",function(){t.parentNode.removeChild(t);n.parentNode.removeChild(n);r.parentNode.removeChild(r)},!1):n.attachEvent("onclick",function(){t.parentNode.removeChild(t);n.parentNode.removeChild(n);r.parentNode.removeChild(r)});t.addEventListener?t.addEventListener("click",function(){t.parentNode.removeChild(t);n.parentNode.removeChild(n);r.parentNode.removeChild(r)},!1):t.attachEvent("onclick",function(){t.parentNode.removeChild(t);n.parentNode.removeChild(n);r.parentNode.removeChild(r)});t.style.marginLeft=bookNowWidth/2-35+"px";t.style.top="38px";window.scroll(0,0)} </script>
     <?=Loader::element('header_required');?>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>    
 </head> 
 <body>
 
@@ -60,7 +61,7 @@
             <!-- /SocialIcons-->
             
             <!-- Login -->                  
-            <ul class="loginbar inline" style="float:right;width:340px;">
+            <ul class="loginbar inline" style="float:right;width:406px;">
                 <li><a href="mailto:info@atlashostels.com"><i class="icon-envelope-alt"></i> info@atlashostels.com</a></li> 
                 <li><a><i class="icon-phone-sign"></i> 0845 519 9448</a></li>   
             </ul>
@@ -86,6 +87,7 @@
                     <!-- Navigation -->      
                     <?php            
                         $a = new GlobalArea('Header Nav'); 
+                        $a->setBlockLimit(1);
                         $a->display();            
                     ?>           
                     <!-- /Navigation -->                                      
