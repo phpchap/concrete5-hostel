@@ -54,9 +54,9 @@
             
             <!-- SocialIcons -->
             <ul class="social-icons" style="float:right;width:105px;">
-                <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
-                <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
-                <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                <li><a href="http://www.facebook.com/pages/Atlas-Hostels-Plc/168741279912015" target="_blank" data-original-title="Facebook" class="social_facebook"></a></li>
+                <li><a href="https://twitter.com/AtlasHostels" target="_blank" data-original-title="Twitter" class="social_twitter"></a></li>
+                <li><a href="http://pinterest.com/deanatlas/atlas-hostels/" target="_blank" data-original-title="Pinterest" class="social_pintrest"></a></li>
             </ul>
             <!-- /SocialIcons-->
             

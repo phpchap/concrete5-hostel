@@ -682,6 +682,7 @@ blockquote:hover {
 	margin-left:66px;
 }
 .posts .dl-horizontal dd p { 
+        line-height: 0.5;   
 	margin:0;
 }
 .posts .dl-horizontal a {
