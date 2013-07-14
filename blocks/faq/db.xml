@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btDCFaq">
+		<field name="bID" type="I"><key /><unsigned /></field>
+
+		<field name="field_1_textbox_text" type="X"></field>
+
+		<field name="field_2_textarea_text" type="X"></field>
+
+		<field name="field_3_textbox_text" type="X"></field>
+
+		<field name="field_4_textbox_text" type="X"></field>
+
+		<field name="field_5_textbox_text" type="X"></field>
+
+		<field name="field_6_textarea_text" type="X"></field>
+
+		<field name="field_7_textbox_text" type="X"></field>
+
+		<field name="field_8_textarea_text" type="X"></field>
+
+		<field name="field_9_textbox_text" type="X"></field>
+
+		<field name="field_10_textarea_text" type="X"></field>
+
+		<field name="field_11_textbox_text" type="X"></field>
+
+		<field name="field_12_textarea_text" type="X"></field>
+
+		<field name="field_13_textbox_text" type="X"></field>
+
+		<field name="field_14_textarea_text" type="X"></field>
+
+		<field name="field_15_textbox_text" type="X"></field>
+
+		<field name="field_16_textarea_text" type="X"></field>
+
+		<field name="field_17_textbox_text" type="X"></field>
+
+		<field name="field_18_textarea_text" type="X"></field>
+
+		<field name="field_19_textbox_text" type="X"></field>
+
+		<field name="field_20_textarea_text" type="X"></field>
+
+
+	</table>
+</schema>

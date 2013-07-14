@@ -10,8 +10,14 @@
             <?php
             $sublevels = $this->controller->getSubLevels();
             if (!empty($sublevels)) {
+                
+                $cnt = 1;
+                $hasFAQ = (count($sublevels) > 1) ? true : false;
                 foreach ($sublevels as $p) {                        
-                    
+                    if( $hasFAQ && $p["title"] == "FAQ") 
+                    {
+                        continue;
+                    }
                     echo '<li>';            
                     if ($p["link"] !== false) {
                         echo '<a href="' . $p["link"] . '">';
@@ -20,7 +26,16 @@
                     if ($p["link"] !== false) {
                         echo '</a>';
                     } 
+                    
+                    ?><span class="divider"><?php
+                    if( $cnt != count ( $sublevels) ) 
+                    {
+                        echo htmlspecialchars($delimiter);  
+                    }
+                    ?></span><?php 
+        
                     echo '</li>';
+                    $cnt++;        
                 }
             }
             ?>            
