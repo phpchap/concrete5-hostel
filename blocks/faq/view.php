@@ -141,4 +141,80 @@
             </div>
         </div><!--/accordion-group-->                                                            
     <?php endif; ?>
+        
+    <?php if (!empty($field_21_textbox_text) && !empty($field_22_textarea_text)): ?>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion11" href="#collapseEleven">
+                    <?php echo htmlentities($field_21_textbox_text, ENT_QUOTES, APP_CHARSET); ?>
+                </a>
+            </div>
+            <div id="collapseEleven" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <?php echo nl2br(htmlentities($field_22_textarea_text, ENT_QUOTES, APP_CHARSET)); ?>
+                </div>
+            </div>
+        </div><!--/accordion-group-->                                                            
+    <?php endif; ?>        
+
+    <?php if (!empty($field_23_textbox_text) && !empty($field_24_textarea_text)): ?>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion12" href="#collapseTwelve">
+                    <?php echo htmlentities($field_23_textbox_text, ENT_QUOTES, APP_CHARSET); ?>
+                </a>
+            </div>
+            <div id="collapseTwelve" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <?php echo nl2br(htmlentities($field_24_textarea_text, ENT_QUOTES, APP_CHARSET)); ?>
+                </div>
+            </div>
+        </div><!--/accordion-group-->                                                            
+    <?php endif; ?>        
+        
+    <?php if (!empty($field_25_textbox_text) && !empty($field_26_textarea_text)): ?>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion13" href="#collapseThirteen">
+                    <?php echo htmlentities($field_25_textbox_text, ENT_QUOTES, APP_CHARSET); ?>
+                </a>
+            </div>
+            <div id="collapseThirteen" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <?php echo nl2br(htmlentities($field_26_textarea_text, ENT_QUOTES, APP_CHARSET)); ?>
+                </div>
+            </div>
+        </div><!--/accordion-group-->                                                            
+    <?php endif; ?>        
+        
+    <?php if (!empty($field_27_textbox_text) && !empty($field_28_textarea_text)): ?>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">
+                    <?php echo htmlentities($field_27_textbox_text, ENT_QUOTES, APP_CHARSET); ?>
+                </a>
+            </div>
+            <div id="collapseThirteen" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <?php echo nl2br(htmlentities($field_28_textarea_text, ENT_QUOTES, APP_CHARSET)); ?>
+                </div>
+            </div>
+        </div><!--/accordion-group-->                                                            
+    <?php endif; ?>        
+                
+    <?php if (!empty($field_29_textbox_text) && !empty($field_30_textarea_text)): ?>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion15" href="#collapseFifteen">
+                    <?php echo htmlentities($field_29_textbox_text, ENT_QUOTES, APP_CHARSET); ?>
+                </a>
+            </div>
+            <div id="collapseFifteen" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <?php echo nl2br(htmlentities($field_30_textarea_text, ENT_QUOTES, APP_CHARSET)); ?>
+                </div>
+            </div>
+        </div><!--/accordion-group-->                                                            
+    <?php endif; ?>        
+        
 </div>

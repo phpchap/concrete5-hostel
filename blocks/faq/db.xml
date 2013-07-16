@@ -43,6 +43,29 @@
 
 		<field name="field_20_textarea_text" type="X"></field>
 
+		<field name="field_21_textbox_text" type="X"></field>
+                
+		<field name="field_22_textarea_text" type="X"></field>
+
+		<field name="field_23_textbox_text" type="X"></field>
+
+		<field name="field_24_textarea_text" type="X"></field>
+
+		<field name="field_25_textbox_text" type="X"></field>
+
+		<field name="field_26_textarea_text" type="X"></field>
+
+		<field name="field_27_textbox_text" type="X"></field>
+
+		<field name="field_28_textarea_text" type="X"></field>
+
+		<field name="field_29_textbox_text" type="X"></field>
+
+		<field name="field_30_textarea_text" type="X"></field>
+
+		<field name="field_31_textbox_text" type="X"></field>
+
+		<field name="field_32_textarea_text" type="X"></field>
 
 	</table>
 </schema>

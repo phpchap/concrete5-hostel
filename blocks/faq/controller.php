@@ -36,7 +36,19 @@ class FaqBlockController extends BlockController {
 		$content[] = $this->field_17_textbox_text;
 		$content[] = $this->field_18_textarea_text;
 		$content[] = $this->field_19_textbox_text;
-		$content[] = $this->field_20_textarea_text;
+		$content[] = $this->field_20_textarea_text;                               
+		$content[] = $this->field_21_textbox_text;
+		$content[] = $this->field_22_textarea_text;
+		$content[] = $this->field_23_textbox_text;
+		$content[] = $this->field_24_textarea_text;                
+		$content[] = $this->field_25_textbox_text;
+		$content[] = $this->field_26_textarea_text;
+		$content[] = $this->field_27_textbox_text;
+		$content[] = $this->field_28_textarea_text;
+		$content[] = $this->field_29_textbox_text;
+		$content[] = $this->field_30_textarea_text;                
+		$content[] = $this->field_31_textbox_text;
+		$content[] = $this->field_32_textarea_text;                
 		return implode(' - ', $content);
 	}
 
